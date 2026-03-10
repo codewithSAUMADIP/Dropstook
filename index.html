@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Title and Favicon -->
+  <title>Dropstook – Creative Social Media & Web Development Agency</title>
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <!-- Fonts and Stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=League+Spartan&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Dropstook is a modern web development and social media management agency that crafts stunning, responsive, and high-performance websites and content. We build digital experiences that convert.">
+  <meta name="keywords" content="Dropstook, web development, website design, SEO, social media management, social media, video editing, graphics design, meta ads, reels edit, responsive websites, branding, digital agency, frontend development, backend development">
+  <meta name="author" content="Dropstook Agency">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dropstook – Creative Social Media & Web Development Agency">
+  <meta property="og:description" content="We design and build websites that elevate your brand. Partner with Dropstook for powerful, conversion-focused web experiences.">
+  <meta property="og:image" content="https://yourdomain.com/logo.png"> <!-- Replace with actual image URL -->
+  <meta property="og:url" content="https://dropstook.com">
+  <meta property="og:site_name" content="Dropstook">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dropstook – Creative Social Media & Web Development Agency">
+  <meta name="twitter:description" content="High-performance social media and beautifully crafted websites by Dropstook.">
+  <meta name="twitter:image" content="https://yourdomain.com/logo.png"> <!-- Replace with actual image URL -->
+
+  <!-- Analytics (Plausible) -->
+  <script defer data-domain="dropstook.com" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
+
+</head>
+<body>
+	<!---NAVBAR--->
+	
+	<nav class="navbar">
+		<div class="logo"><img style="width: 120%;height: auto;" src='Images\logo.png' alt=""></div>
+		<ul class="nav-links">
+		  <li><a href="#service" class="hover-text">Services</a></li>
+		  <li><a href="#whats-new" class="hover-text">Whats New</a></li>
+		  <li><a href="#work" class="hover-text">Projects</a></li>
+		  <li><a href="#faq" class="hover-text">FAQ</a></li>
+		  <li><a href="#testimonials" class="hover-text">Testimonials</a></li>
+		</ul>
+		<div class="menu-toggle">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</div>
+	</nav>
+	
+	<!---HOME TEXT--->
+<div class="badge-container top-badge">
+    <div class="badge">
+    <div class="year">2026</div>
+    <div class="text">New Trend</div>
+  </div>
+</div>
+	<center><div style="width: 98%;line-height: 1;"><h1 class="HOME-H1">Dropstook<br>Building Digital Dreams</h1></div></center>
+	<center><p class="home-p">We turn your brand into an online presence people can’t ignore.</p></center>
+	<!---HOME BUTTON--->
+<div class="button-container">
+  <button onclick="window.open('https://wa.me/916295140561?text=Hi%20I%20am%20interested%20in%20your%20services', '_blank')" class="btn black-btn">
+    Contact Us
+  </button>
+  <button onclick="window.open('https://wa.me/916295140561?text=Hi%20I%20am%20interested%20in%20your%20services', '_blank')" class="btn white-btn">
+    Book a Call
+  </button>
+</div>
+
+	<!---HOME CIRCLE--->
+	<div class="bg"><div></div></div>
+
+<div class="bg-cover">
+        <div class="wrapper">
+        <!-- Stats Section -->
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-value" data-target="50">0</span>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" data-target="20">0</span>
+                    <div class="stat-label">Clients</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" data-target="99">0</span>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" data-target="4">0</span>
+                    <div class="stat-label">Years</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Brands Ticker -->
+        <div class="brands-section">
+            <div class="section-header">
+                <div class="section-title">Trusted by Industry</div>
+            </div>
+            <div class="ticker-wrap">
+                <div class="ticker" id="ticker"></div>
+            </div>
+        </div>
+
+        <!-- Brands Ticker -->
+<div class="brands-section">
+
+    <div class="ticker-wrap" style="margin-top: 20px;">
+        <div class="ticker ticker-reverse" id="ticker2"></div>
+    </div>
+</div>
+        
+    </div>
+
+</div>
+
+    	<!---HOME SLIDER--->
+	<center>
+	<div  class="ok" id="service">
+			<div style="width: 95%;"><h1 class="SLIDE-H1 H1">Explore Every Services!</h1></div>
+        <div class="container-service">
+        <!-- Seamless API Integrations Card -->
+        <div class="feature-card">
+            <div class="icon-circle">
+                <svg viewBox="0 0 24 24">
+                    <path d="M13 3L4 14h6v7l9-11h-6V3z"/>
+                </svg>
+            </div>
+            <center>
+                <h2 class="card-title">SOCIAL MEDIA MANAGEMENT</h2>
+                <hr>
+            <p class="card-description">We manage your social media end-to-end — from content planning and posting to influencer collaborations — helping your brand grow, engage audiences, and stay consistently active online.</p>
+            </center>
+            <div class="card-visual integrations-visual">
+                <img src="Images\1.png" alt="">
+            </div>
+        </div>
+
+        <!-- Trusted Authentication Card -->
+        <div class="feature-card">
+            <div class="icon-circle">
+                <svg viewBox="0 0 24 24">
+                    <path d="M13 3L4 14h6v7l9-11h-6V3z"/>
+                </svg>
+            </div>
+            <center>
+            <h2 class="card-title">PORTFOLIO WEBSITE DEVELOPMENT</h2>
+            <hr>
+            <p class="card-description">Whether you're a creator, freelancer, or brand, we build clean and modern portfolio websites that showcase your work professionally and leave a lasting impression on visitors.</p>
+            </center>
+            <div class="card-visual auth-visual">
+                <img src="Images\2.png" alt="">
+            </div>
+        </div>
+
+        <!-- AI Speech Recognition Card -->
+        <div class="feature-card">
+            <div class="icon-circle">
+                <svg viewBox="0 0 24 24">
+                    <path d="M13 3L4 14h6v7l9-11h-6V3z"/>
+                </svg>
+            </div>
+            <center>
+            <h2 class="card-title">E-COM WEBSITE DEVELOPMENT</h2>
+            <hr>
+            <p class="card-description">From visually appealing product pages to smooth and secure checkout systems, we build e-commerce websites designed to enhance user experience and turn visitors into customers.</p>
+            </center>
+            <div class="card-visual speech-visual">
+                <img src="Images\3.png" alt="">
+            </div>
+        </div>
+
+
+                <!-- AI Speech Recognition Card -->
+        <div class="feature-card">
+            <div class="icon-circle">
+                <svg viewBox="0 0 24 24">
+                    <path d="M13 3L4 14h6v7l9-11h-6V3z"/>
+                </svg>
+            </div>
+            <center>
+            <h2 class="card-title">VIDEO EDITING</h2>
+            <hr>
+            <p class="card-description">We create engaging, high-quality video edits optimized for social media — helping your content capture attention, tell your story, and keep viewers watching.</p>
+            </center>
+            <div class="card-visual speech-visual">
+                <img src="Images\4.png" alt="">
+            </div>
+        </div>
+
+
+
+                <!-- AI Speech Recognition Card -->
+        <div class="feature-card">
+            <div class="icon-circle">
+                <svg viewBox="0 0 24 24">
+                    <path d="M13 3L4 14h6v7l9-11h-6V3z"/>
+                </svg>
+            </div>
+            <center>
+            <h2 class="card-title">GRAPHIC DESIGN</h2>
+            <hr>
+            <p class="card-description">From social media creatives to brand visuals, we design eye-catching graphics that strengthen your brand identity and make your content stand out.</p>
+            </center>
+            <div class="card-visual speech-visual">
+                <img src="Images\5.png" alt="">
+            </div>
+        </div>
+
+                <div class="feature-card">
+            <div class="icon-circle">
+                <svg viewBox="0 0 24 24">
+                    <path d="M13 3L4 14h6v7l9-11h-6V3z"/>
+                </svg>
+            </div>
+            <center>
+            <h2 class="card-title">META ADS CAMPAIGNS</h2>
+            <hr>
+            <p class="card-description">We plan, create, and manage high-performing Meta ad campaigns that target the right audience — helping you generate leads, increase sales, and scale your business effectively.</p>
+            </center>
+            <div class="card-visual speech-visual">
+                <img src="Images\6.png" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+	</center>
+
+      <!--PROJECT SHOWCASE-->
+
+
+ <center><h1 class="H1 project-h1" id="work">Our Work</h1></center>
+
+<!-- Tab Buttons -->
+<div class="project-tabs">
+    <button class="tab-btn active" onclick="switchTab('website')">🌐 Website</button>
+    <button class="tab-btn" onclick="switchTab('social')">📱 Social Media</button>
+</div>
+
+<div class="container-project" id="tab-website">
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Ano Nutrition – Protein Brand</h2>
+        </div>
+        <p class="service-description">We designed a high-performance supplement website focused on trust, clean design, and fast navigation — helping fitness enthusiasts explore products easily and convert into customers.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="website project\8.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">PROT Official – Clothing Brand</h2>
+        </div>
+        <p class="service-description">We developed a modern clothing website with a bold and minimal layout — creating a smooth shopping experience that reflects the brand’s strong streetwear identity.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="website project\7.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header"><div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div><div class="service-icon">🌟</div>
+            <h2 class="service-title">HVNLY – Shoes Brand</h2>
+        </div>
+        <p class="service-description">We built a sleek and responsive footwear website focused on style and performance — making it easy for customers to explore collections and shop effortlessly.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="website project\9.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Sidharth and Disha – Clothing Brand</h2>
+        </div>
+        <p class="service-description">We created a stylish fashion website that highlights premium collections with a clean and elegant interface — delivering a smooth browsing and shopping experience.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="website project\10.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Bargad – Shilajit Brand</h2>
+        </div>
+        <p class="service-description">We developed a conversion-focused wellness website designed to build trust and educate customers — presenting the brand’s Shilajit products with clarity and credibility.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="website project\6.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Product Design</h2>
+        </div>
+        <p class="service-description">We designed a modern personal portfolio to highlight skills, projects, and personality — fully responsive, fast-loading, and built to leave a lasting impression.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="Images\pj6.png" alt="">
+            </div>
+        </div>
+    </div>
+
+        <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">AXM – Bag Brand</h2>
+        </div>
+        <p class="service-description">We developed a sleek and modern website showcasing premium bags with a clean product layout — making it easy for customers to explore collections and shop with confidence.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="Images\pj2.png" alt="">
+            </div>
+        </div>
+    </div>
+
+        <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Lofia – Clothing Brand</h2>
+        </div>
+        <p class="service-description">We designed a stylish fashion website focused on elegant visuals and smooth navigation — creating a seamless shopping experience that highlights the brand’s clothing collections.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="Images\pj1.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Social Media Tab (hidden by default) -->
+<div class="container-project" id="tab-social" style="display:none;">
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">K9 Badminton</h2>
+        </div>
+        <p class="service-description">We manage the academy’s social media with dynamic sports content, engaging reels, and consistent posting — helping build a strong community around badminton.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\11.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Grad Select</h2>
+        </div>
+        <p class="service-description">We create informative and engaging content around career opportunities, handle video editing, and manage posting — helping the brand connect with students and job seekers.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\12.png" alt="">
+            </div>
+        </div>
+    </div>
+
+        <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">EuroKids</h2>
+        </div>
+        <p class="service-description">We manage creative and parent-friendly content, engaging reels, and regular updates — building trust and visibility for the preschool on social media.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\13.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Bloomly AI</h2>
+        </div>
+        <p class="service-description">We create high-performing reels, manage content strategy, and collaborate with influencers — helping the brand reach students preparing for interviews.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\14.png" alt="">
+            </div>
+        </div>
+    </div>
+
+        <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Ano Nutrition</h2>
+        </div>
+        <p class="service-description">We produce fitness-focused content, edit high-quality reels, and manage influencer collaborations — helping the brand grow within the fitness community.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\15.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Jack Forest Music</h2>
+        </div>
+        <p class="service-description">We manage music-focused content, engaging video edits, and consistent posting — helping the artist connect with a wider audience online.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\16.png" alt="">
+            </div>
+        </div>
+    </div>
+
+        <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">PROT Official</h2>
+        </div>
+        <p class="service-description">We create bold fashion reels, manage content production, and maintain consistent posting — building a strong streetwear presence on social media.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\17.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">TGT Gaming</h2>
+        </div>
+        <p class="service-description">We produce engaging gaming clips, edit high-energy videos, and manage posting — helping the brand connect with the gaming community.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\18.png" alt="">
+            </div>
+        </div>
+    </div>
+
+        <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">Hump n Joy</h2>
+        </div>
+        <p class="service-description">We manage fun and engaging brand content, creative reels, and influencer collaborations — building a lively and relatable presence on social media.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\19.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="service-card">
+        <div class="service-header">
+            <div class="service-icon"><img style="height: 50px; width: 50px;" src="Images\a5a7b608acd2b3235959cc57abaf78a8-removebg-preview.png" alt=""></div>
+            <h2 class="service-title">CM International School</h2>
+        </div>
+        <p class="service-description">We manage the school’s social media with engaging campus content, student activity highlights, and creative video edits — building a strong and trustworthy presence for the institution online.</p>
+        <div class="service-preview">
+            <div class="dashboard">
+                <img src="social media project\20.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--COMPARISION-->
+  <section class="comparison-section" id="whats-new">
+<center>
+        <h1 class="SLIDE-H1 H1">Dropstook vs. The Rest</h1>
+    <h1 class="SLIDE-H1 H1">Let,s See The Difference</h1>
+    <p class="subtext">We help brands grow online with powerful content, smart marketing, and strong digital presence.</p>
+</center>
+
+    <div class="comparison-cards">
+      <!-- Left Card -->
+      <div class="card left">
+        <ul>
+          <li><span class="icon red"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 49.66 1.125 L 49.66 1.125 c 4.67 -2.393 10.394 -0.859 13.243 3.548 l 0 0 c 1.784 2.761 4.788 4.495 8.071 4.66 l 0 0 c 5.241 0.263 9.431 4.453 9.694 9.694 v 0 c 0.165 3.283 1.899 6.286 4.66 8.071 l 0 0 c 4.407 2.848 5.941 8.572 3.548 13.242 l 0 0 c -1.499 2.926 -1.499 6.394 0 9.319 l 0 0 c 2.393 4.67 0.859 10.394 -3.548 13.242 l 0 0 c -2.761 1.784 -4.495 4.788 -4.66 8.071 v 0 c -0.263 5.241 -4.453 9.431 -9.694 9.694 h 0 c -3.283 0.165 -6.286 1.899 -8.071 4.66 l 0 0 c -2.848 4.407 -8.572 5.941 -13.242 3.548 l 0 0 c -2.926 -1.499 -6.394 -1.499 -9.319 0 l 0 0 c -4.67 2.393 -10.394 0.859 -13.242 -3.548 l 0 0 c -1.784 -2.761 -4.788 -4.495 -8.071 -4.66 h 0 c -5.241 -0.263 -9.431 -4.453 -9.694 -9.694 l 0 0 c -0.165 -3.283 -1.899 -6.286 -4.66 -8.071 l 0 0 C 0.266 60.054 -1.267 54.33 1.125 49.66 l 0 0 c 1.499 -2.926 1.499 -6.394 0 -9.319 l 0 0 c -2.393 -4.67 -0.859 -10.394 3.548 -13.242 l 0 0 c 2.761 -1.784 4.495 -4.788 4.66 -8.071 l 0 0 c 0.263 -5.241 4.453 -9.431 9.694 -9.694 l 0 0 c 3.283 -0.165 6.286 -1.899 8.071 -4.66 l 0 0 c 2.848 -4.407 8.572 -5.941 13.242 -3.548 l 0 0 C 43.266 2.624 46.734 2.624 49.66 1.125 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(206,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<polygon points="36.94,66.3 36.94,66.3 36.94,46.9 36.94,46.9 62.8,35.34 72.5,45.04 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(178,0,0); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+	<polygon points="36.94,66.3 17.5,46.87 27.2,37.16 36.94,46.9 60.11,23.7 69.81,33.39 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+</g>
+</svg></span>Focus only on visuals, ignoring real user experience</li>
+          <li><span class="icon red"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 49.66 1.125 L 49.66 1.125 c 4.67 -2.393 10.394 -0.859 13.243 3.548 l 0 0 c 1.784 2.761 4.788 4.495 8.071 4.66 l 0 0 c 5.241 0.263 9.431 4.453 9.694 9.694 v 0 c 0.165 3.283 1.899 6.286 4.66 8.071 l 0 0 c 4.407 2.848 5.941 8.572 3.548 13.242 l 0 0 c -1.499 2.926 -1.499 6.394 0 9.319 l 0 0 c 2.393 4.67 0.859 10.394 -3.548 13.242 l 0 0 c -2.761 1.784 -4.495 4.788 -4.66 8.071 v 0 c -0.263 5.241 -4.453 9.431 -9.694 9.694 h 0 c -3.283 0.165 -6.286 1.899 -8.071 4.66 l 0 0 c -2.848 4.407 -8.572 5.941 -13.242 3.548 l 0 0 c -2.926 -1.499 -6.394 -1.499 -9.319 0 l 0 0 c -4.67 2.393 -10.394 0.859 -13.242 -3.548 l 0 0 c -1.784 -2.761 -4.788 -4.495 -8.071 -4.66 h 0 c -5.241 -0.263 -9.431 -4.453 -9.694 -9.694 l 0 0 c -0.165 -3.283 -1.899 -6.286 -4.66 -8.071 l 0 0 C 0.266 60.054 -1.267 54.33 1.125 49.66 l 0 0 c 1.499 -2.926 1.499 -6.394 0 -9.319 l 0 0 c -2.393 -4.67 -0.859 -10.394 3.548 -13.242 l 0 0 c 2.761 -1.784 4.495 -4.788 4.66 -8.071 l 0 0 c 0.263 -5.241 4.453 -9.431 9.694 -9.694 l 0 0 c 3.283 -0.165 6.286 -1.899 8.071 -4.66 l 0 0 c 2.848 -4.407 8.572 -5.941 13.242 -3.548 l 0 0 C 43.266 2.624 46.734 2.624 49.66 1.125 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(206,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<polygon points="36.94,66.3 36.94,66.3 36.94,46.9 36.94,46.9 62.8,35.34 72.5,45.04 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(178,0,0); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+	<polygon points="36.94,66.3 17.5,46.87 27.2,37.16 36.94,46.9 60.11,23.7 69.81,33.39 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+</g>
+</svg></span>Deliver slow, poorly optimized websites</li>
+          <li><span class="icon red"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 49.66 1.125 L 49.66 1.125 c 4.67 -2.393 10.394 -0.859 13.243 3.548 l 0 0 c 1.784 2.761 4.788 4.495 8.071 4.66 l 0 0 c 5.241 0.263 9.431 4.453 9.694 9.694 v 0 c 0.165 3.283 1.899 6.286 4.66 8.071 l 0 0 c 4.407 2.848 5.941 8.572 3.548 13.242 l 0 0 c -1.499 2.926 -1.499 6.394 0 9.319 l 0 0 c 2.393 4.67 0.859 10.394 -3.548 13.242 l 0 0 c -2.761 1.784 -4.495 4.788 -4.66 8.071 v 0 c -0.263 5.241 -4.453 9.431 -9.694 9.694 h 0 c -3.283 0.165 -6.286 1.899 -8.071 4.66 l 0 0 c -2.848 4.407 -8.572 5.941 -13.242 3.548 l 0 0 c -2.926 -1.499 -6.394 -1.499 -9.319 0 l 0 0 c -4.67 2.393 -10.394 0.859 -13.242 -3.548 l 0 0 c -1.784 -2.761 -4.788 -4.495 -8.071 -4.66 h 0 c -5.241 -0.263 -9.431 -4.453 -9.694 -9.694 l 0 0 c -0.165 -3.283 -1.899 -6.286 -4.66 -8.071 l 0 0 C 0.266 60.054 -1.267 54.33 1.125 49.66 l 0 0 c 1.499 -2.926 1.499 -6.394 0 -9.319 l 0 0 c -2.393 -4.67 -0.859 -10.394 3.548 -13.242 l 0 0 c 2.761 -1.784 4.495 -4.788 4.66 -8.071 l 0 0 c 0.263 -5.241 4.453 -9.431 9.694 -9.694 l 0 0 c 3.283 -0.165 6.286 -1.899 8.071 -4.66 l 0 0 c 2.848 -4.407 8.572 -5.941 13.242 -3.548 l 0 0 C 43.266 2.624 46.734 2.624 49.66 1.125 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(206,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<polygon points="36.94,66.3 36.94,66.3 36.94,46.9 36.94,46.9 62.8,35.34 72.5,45.04 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(178,0,0); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+	<polygon points="36.94,66.3 17.5,46.87 27.2,37.16 36.94,46.9 60.11,23.7 69.81,33.39 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+</g>
+</svg></span>Disappear after project delivery</li>
+          <li><span class="icon red"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 49.66 1.125 L 49.66 1.125 c 4.67 -2.393 10.394 -0.859 13.243 3.548 l 0 0 c 1.784 2.761 4.788 4.495 8.071 4.66 l 0 0 c 5.241 0.263 9.431 4.453 9.694 9.694 v 0 c 0.165 3.283 1.899 6.286 4.66 8.071 l 0 0 c 4.407 2.848 5.941 8.572 3.548 13.242 l 0 0 c -1.499 2.926 -1.499 6.394 0 9.319 l 0 0 c 2.393 4.67 0.859 10.394 -3.548 13.242 l 0 0 c -2.761 1.784 -4.495 4.788 -4.66 8.071 v 0 c -0.263 5.241 -4.453 9.431 -9.694 9.694 h 0 c -3.283 0.165 -6.286 1.899 -8.071 4.66 l 0 0 c -2.848 4.407 -8.572 5.941 -13.242 3.548 l 0 0 c -2.926 -1.499 -6.394 -1.499 -9.319 0 l 0 0 c -4.67 2.393 -10.394 0.859 -13.242 -3.548 l 0 0 c -1.784 -2.761 -4.788 -4.495 -8.071 -4.66 h 0 c -5.241 -0.263 -9.431 -4.453 -9.694 -9.694 l 0 0 c -0.165 -3.283 -1.899 -6.286 -4.66 -8.071 l 0 0 C 0.266 60.054 -1.267 54.33 1.125 49.66 l 0 0 c 1.499 -2.926 1.499 -6.394 0 -9.319 l 0 0 c -2.393 -4.67 -0.859 -10.394 3.548 -13.242 l 0 0 c 2.761 -1.784 4.495 -4.788 4.66 -8.071 l 0 0 c 0.263 -5.241 4.453 -9.431 9.694 -9.694 l 0 0 c 3.283 -0.165 6.286 -1.899 8.071 -4.66 l 0 0 c 2.848 -4.407 8.572 -5.941 13.242 -3.548 l 0 0 C 43.266 2.624 46.734 2.624 49.66 1.125 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(206,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<polygon points="36.94,66.3 36.94,66.3 36.94,46.9 36.94,46.9 62.8,35.34 72.5,45.04 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(178,0,0); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+	<polygon points="36.94,66.3 17.5,46.87 27.2,37.16 36.94,46.9 60.11,23.7 69.81,33.39 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+</g>
+</svg></span>Provide limited features with little flexibility</li>
+          <li><span class="icon red"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 49.66 1.125 L 49.66 1.125 c 4.67 -2.393 10.394 -0.859 13.243 3.548 l 0 0 c 1.784 2.761 4.788 4.495 8.071 4.66 l 0 0 c 5.241 0.263 9.431 4.453 9.694 9.694 v 0 c 0.165 3.283 1.899 6.286 4.66 8.071 l 0 0 c 4.407 2.848 5.941 8.572 3.548 13.242 l 0 0 c -1.499 2.926 -1.499 6.394 0 9.319 l 0 0 c 2.393 4.67 0.859 10.394 -3.548 13.242 l 0 0 c -2.761 1.784 -4.495 4.788 -4.66 8.071 v 0 c -0.263 5.241 -4.453 9.431 -9.694 9.694 h 0 c -3.283 0.165 -6.286 1.899 -8.071 4.66 l 0 0 c -2.848 4.407 -8.572 5.941 -13.242 3.548 l 0 0 c -2.926 -1.499 -6.394 -1.499 -9.319 0 l 0 0 c -4.67 2.393 -10.394 0.859 -13.242 -3.548 l 0 0 c -1.784 -2.761 -4.788 -4.495 -8.071 -4.66 h 0 c -5.241 -0.263 -9.431 -4.453 -9.694 -9.694 l 0 0 c -0.165 -3.283 -1.899 -6.286 -4.66 -8.071 l 0 0 C 0.266 60.054 -1.267 54.33 1.125 49.66 l 0 0 c 1.499 -2.926 1.499 -6.394 0 -9.319 l 0 0 c -2.393 -4.67 -0.859 -10.394 3.548 -13.242 l 0 0 c 2.761 -1.784 4.495 -4.788 4.66 -8.071 l 0 0 c 0.263 -5.241 4.453 -9.431 9.694 -9.694 l 0 0 c 3.283 -0.165 6.286 -1.899 8.071 -4.66 l 0 0 c 2.848 -4.407 8.572 -5.941 13.242 -3.548 l 0 0 C 43.266 2.624 46.734 2.624 49.66 1.125 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(206,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<polygon points="36.94,66.3 36.94,66.3 36.94,46.9 36.94,46.9 62.8,35.34 72.5,45.04 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(178,0,0); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+	<polygon points="36.94,66.3 17.5,46.87 27.2,37.16 36.94,46.9 60.11,23.7 69.81,33.39 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+</g>
+</svg></span>Lack long-term strategy for brand growth</li>
+        </ul>
+      </div>
+
+      <!-- Right Card -->
+      <div class="card right">
+        <ul>
+          <li><span class="icon violet"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 47.613 6.011 l 8.531 -4.732 c 2.864 -1.588 6.47 -0.276 7.643 2.782 l 3.494 9.108 c 0.666 1.735 2.179 3.005 4.003 3.359 l 9.577 1.859 c 3.215 0.624 5.134 3.948 4.067 7.044 l -3.178 9.223 c -0.606 1.757 -0.263 3.702 0.907 5.147 l 6.141 7.58 c 2.061 2.544 1.395 6.324 -1.412 8.01 l -8.363 5.022 c -1.593 0.957 -2.581 2.667 -2.613 4.526 l -0.168 9.754 c -0.056 3.274 -2.996 5.741 -6.231 5.228 l -9.635 -1.528 c -1.836 -0.291 -3.692 0.384 -4.911 1.787 l -6.398 7.364 c -2.148 2.472 -5.986 2.472 -8.133 0 l -6.398 -7.364 c -1.219 -1.403 -3.075 -2.079 -4.911 -1.787 l -9.635 1.528 c -3.234 0.513 -6.174 -1.954 -6.231 -5.228 l -0.168 -9.754 c -0.032 -1.858 -1.02 -3.569 -2.613 -4.526 l -8.363 -5.022 c -2.807 -1.686 -3.474 -5.466 -1.412 -8.01 l 6.141 -7.58 c 1.17 -1.444 1.513 -3.389 0.907 -5.147 l -3.178 -9.223 c -1.067 -3.096 0.852 -6.42 4.067 -7.044 l 9.577 -1.859 c 1.825 -0.354 3.338 -1.624 4.003 -3.359 l 3.494 -9.108 c 1.173 -3.057 4.779 -4.37 7.643 -2.782 l 8.531 4.732 C 44.012 6.913 45.988 6.913 47.613 6.011 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(88,32,112); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<path d="M 41.325 61.54 c -1.134 0 -2.215 -0.481 -2.974 -1.325 l -12.35 -13.73 c -1.477 -1.642 -1.343 -4.171 0.299 -5.649 s 4.171 -1.343 5.649 0.299 l 9.318 10.359 l 18.732 -21.652 c 1.444 -1.67 3.97 -1.854 5.643 -0.408 c 1.671 1.445 1.854 3.971 0.408 5.642 l -21.7 25.081 c -0.751 0.868 -1.838 1.371 -2.986 1.383 C 41.351 61.54 41.338 61.54 41.325 61.54 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+</g>
+</svg></span>Focus on clean, user-first design and real engagement</li>
+          <li><span class="icon violet"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 47.613 6.011 l 8.531 -4.732 c 2.864 -1.588 6.47 -0.276 7.643 2.782 l 3.494 9.108 c 0.666 1.735 2.179 3.005 4.003 3.359 l 9.577 1.859 c 3.215 0.624 5.134 3.948 4.067 7.044 l -3.178 9.223 c -0.606 1.757 -0.263 3.702 0.907 5.147 l 6.141 7.58 c 2.061 2.544 1.395 6.324 -1.412 8.01 l -8.363 5.022 c -1.593 0.957 -2.581 2.667 -2.613 4.526 l -0.168 9.754 c -0.056 3.274 -2.996 5.741 -6.231 5.228 l -9.635 -1.528 c -1.836 -0.291 -3.692 0.384 -4.911 1.787 l -6.398 7.364 c -2.148 2.472 -5.986 2.472 -8.133 0 l -6.398 -7.364 c -1.219 -1.403 -3.075 -2.079 -4.911 -1.787 l -9.635 1.528 c -3.234 0.513 -6.174 -1.954 -6.231 -5.228 l -0.168 -9.754 c -0.032 -1.858 -1.02 -3.569 -2.613 -4.526 l -8.363 -5.022 c -2.807 -1.686 -3.474 -5.466 -1.412 -8.01 l 6.141 -7.58 c 1.17 -1.444 1.513 -3.389 0.907 -5.147 l -3.178 -9.223 c -1.067 -3.096 0.852 -6.42 4.067 -7.044 l 9.577 -1.859 c 1.825 -0.354 3.338 -1.624 4.003 -3.359 l 3.494 -9.108 c 1.173 -3.057 4.779 -4.37 7.643 -2.782 l 8.531 4.732 C 44.012 6.913 45.988 6.913 47.613 6.011 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(88,32,112); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<path d="M 41.325 61.54 c -1.134 0 -2.215 -0.481 -2.974 -1.325 l -12.35 -13.73 c -1.477 -1.642 -1.343 -4.171 0.299 -5.649 s 4.171 -1.343 5.649 0.299 l 9.318 10.359 l 18.732 -21.652 c 1.444 -1.67 3.97 -1.854 5.643 -0.408 c 1.671 1.445 1.854 3.971 0.408 5.642 l -21.7 25.081 c -0.751 0.868 -1.838 1.371 -2.986 1.383 C 41.351 61.54 41.338 61.54 41.325 61.54 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+</g>
+</svg></span>Build fast, performance-optimized digital experiences</li>
+          <li><span class="icon violet"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 47.613 6.011 l 8.531 -4.732 c 2.864 -1.588 6.47 -0.276 7.643 2.782 l 3.494 9.108 c 0.666 1.735 2.179 3.005 4.003 3.359 l 9.577 1.859 c 3.215 0.624 5.134 3.948 4.067 7.044 l -3.178 9.223 c -0.606 1.757 -0.263 3.702 0.907 5.147 l 6.141 7.58 c 2.061 2.544 1.395 6.324 -1.412 8.01 l -8.363 5.022 c -1.593 0.957 -2.581 2.667 -2.613 4.526 l -0.168 9.754 c -0.056 3.274 -2.996 5.741 -6.231 5.228 l -9.635 -1.528 c -1.836 -0.291 -3.692 0.384 -4.911 1.787 l -6.398 7.364 c -2.148 2.472 -5.986 2.472 -8.133 0 l -6.398 -7.364 c -1.219 -1.403 -3.075 -2.079 -4.911 -1.787 l -9.635 1.528 c -3.234 0.513 -6.174 -1.954 -6.231 -5.228 l -0.168 -9.754 c -0.032 -1.858 -1.02 -3.569 -2.613 -4.526 l -8.363 -5.022 c -2.807 -1.686 -3.474 -5.466 -1.412 -8.01 l 6.141 -7.58 c 1.17 -1.444 1.513 -3.389 0.907 -5.147 l -3.178 -9.223 c -1.067 -3.096 0.852 -6.42 4.067 -7.044 l 9.577 -1.859 c 1.825 -0.354 3.338 -1.624 4.003 -3.359 l 3.494 -9.108 c 1.173 -3.057 4.779 -4.37 7.643 -2.782 l 8.531 4.732 C 44.012 6.913 45.988 6.913 47.613 6.011 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(88,32,112); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<path d="M 41.325 61.54 c -1.134 0 -2.215 -0.481 -2.974 -1.325 l -12.35 -13.73 c -1.477 -1.642 -1.343 -4.171 0.299 -5.649 s 4.171 -1.343 5.649 0.299 l 9.318 10.359 l 18.732 -21.652 c 1.444 -1.67 3.97 -1.854 5.643 -0.408 c 1.671 1.445 1.854 3.971 0.408 5.642 l -21.7 25.081 c -0.751 0.868 -1.838 1.371 -2.986 1.383 C 41.351 61.54 41.338 61.54 41.325 61.54 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+</g>
+</svg></span>Provide ongoing support and long-term collaboration</li>
+          <li><span class="icon violet"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 47.613 6.011 l 8.531 -4.732 c 2.864 -1.588 6.47 -0.276 7.643 2.782 l 3.494 9.108 c 0.666 1.735 2.179 3.005 4.003 3.359 l 9.577 1.859 c 3.215 0.624 5.134 3.948 4.067 7.044 l -3.178 9.223 c -0.606 1.757 -0.263 3.702 0.907 5.147 l 6.141 7.58 c 2.061 2.544 1.395 6.324 -1.412 8.01 l -8.363 5.022 c -1.593 0.957 -2.581 2.667 -2.613 4.526 l -0.168 9.754 c -0.056 3.274 -2.996 5.741 -6.231 5.228 l -9.635 -1.528 c -1.836 -0.291 -3.692 0.384 -4.911 1.787 l -6.398 7.364 c -2.148 2.472 -5.986 2.472 -8.133 0 l -6.398 -7.364 c -1.219 -1.403 -3.075 -2.079 -4.911 -1.787 l -9.635 1.528 c -3.234 0.513 -6.174 -1.954 -6.231 -5.228 l -0.168 -9.754 c -0.032 -1.858 -1.02 -3.569 -2.613 -4.526 l -8.363 -5.022 c -2.807 -1.686 -3.474 -5.466 -1.412 -8.01 l 6.141 -7.58 c 1.17 -1.444 1.513 -3.389 0.907 -5.147 l -3.178 -9.223 c -1.067 -3.096 0.852 -6.42 4.067 -7.044 l 9.577 -1.859 c 1.825 -0.354 3.338 -1.624 4.003 -3.359 l 3.494 -9.108 c 1.173 -3.057 4.779 -4.37 7.643 -2.782 l 8.531 4.732 C 44.012 6.913 45.988 6.913 47.613 6.011 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(88,32,112); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<path d="M 41.325 61.54 c -1.134 0 -2.215 -0.481 -2.974 -1.325 l -12.35 -13.73 c -1.477 -1.642 -1.343 -4.171 0.299 -5.649 s 4.171 -1.343 5.649 0.299 l 9.318 10.359 l 18.732 -21.652 c 1.444 -1.67 3.97 -1.854 5.643 -0.408 c 1.671 1.445 1.854 3.971 0.408 5.642 l -21.7 25.081 c -0.751 0.868 -1.838 1.371 -2.986 1.383 C 41.351 61.54 41.338 61.54 41.325 61.54 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+</g>
+</svg></span>Deliver scalable solutions with full flexibility</li>
+          <li><span class="icon violet"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 47.613 6.011 l 8.531 -4.732 c 2.864 -1.588 6.47 -0.276 7.643 2.782 l 3.494 9.108 c 0.666 1.735 2.179 3.005 4.003 3.359 l 9.577 1.859 c 3.215 0.624 5.134 3.948 4.067 7.044 l -3.178 9.223 c -0.606 1.757 -0.263 3.702 0.907 5.147 l 6.141 7.58 c 2.061 2.544 1.395 6.324 -1.412 8.01 l -8.363 5.022 c -1.593 0.957 -2.581 2.667 -2.613 4.526 l -0.168 9.754 c -0.056 3.274 -2.996 5.741 -6.231 5.228 l -9.635 -1.528 c -1.836 -0.291 -3.692 0.384 -4.911 1.787 l -6.398 7.364 c -2.148 2.472 -5.986 2.472 -8.133 0 l -6.398 -7.364 c -1.219 -1.403 -3.075 -2.079 -4.911 -1.787 l -9.635 1.528 c -3.234 0.513 -6.174 -1.954 -6.231 -5.228 l -0.168 -9.754 c -0.032 -1.858 -1.02 -3.569 -2.613 -4.526 l -8.363 -5.022 c -2.807 -1.686 -3.474 -5.466 -1.412 -8.01 l 6.141 -7.58 c 1.17 -1.444 1.513 -3.389 0.907 -5.147 l -3.178 -9.223 c -1.067 -3.096 0.852 -6.42 4.067 -7.044 l 9.577 -1.859 c 1.825 -0.354 3.338 -1.624 4.003 -3.359 l 3.494 -9.108 c 1.173 -3.057 4.779 -4.37 7.643 -2.782 l 8.531 4.732 C 44.012 6.913 45.988 6.913 47.613 6.011 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(88,32,112); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+	<path d="M 41.325 61.54 c -1.134 0 -2.215 -0.481 -2.974 -1.325 l -12.35 -13.73 c -1.477 -1.642 -1.343 -4.171 0.299 -5.649 s 4.171 -1.343 5.649 0.299 l 9.318 10.359 l 18.732 -21.652 c 1.444 -1.67 3.97 -1.854 5.643 -0.408 c 1.671 1.445 1.854 3.971 0.408 5.642 l -21.7 25.081 c -0.751 0.868 -1.838 1.371 -2.986 1.383 C 41.351 61.54 41.338 61.54 41.325 61.54 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"/>
+</g>
+</svg></span>Help brands grow with content, strategy, and strong online presence</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<!--LAUNCH SITE-->
+
+  <div class="container-launchsite">
+    <div class="left-panel">
+      <img class="main-image" src="Images\original-5e84ed56c6b3568265f5fafb6a8e4ecc.gif" alt="Main Image" />
+    </div>
+    <div class="right-panel">
+<div class="badge-container">
+    <div class="badge">
+    <div class="year">🚀</div>
+    <div class="text">Launch Your Brand</div>
+  </div>
+</div>
+      <h1>Launch Your Brand with Dropstook<br><span style="color: #999; font-weight: 400;">In a Minutes of Time!</span></h1>
+      <hr>
+      <p>Build your brand effortlessly and grow online with confidence.<br>Ready to stand out? Get started today!</p>
+      <a href="https://wa.me/916295140561?text=Hi%20I%20am%20interested%20in%20your%20services" class="cta-button">Book an Appointment</a>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <div class="rating">60+ Brand Rated</div>
+    </div>
+  </div>
+
+            <!-- TESTIMONIALS -->
+
+
+    <section class="testimonials hidden" id="testimonials">
+        <h1 class="service-h1 H1 ">Testimonials</h1>
+    
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="testimonial-footer">
+                    <div><img src="model1.png" alt=""></div>
+                    <div class="name">Ravi K., Startup Founder</div>
+                </div>
+              <p class="testimonial-text">
+                ⭐️⭐️⭐️⭐️⭐️ <br>
+They transformed my rough concept into a beautiful, functional website. Excellent communication, fast turnaround, and the result exceeded expectations. I’m beyond happy with their service and final delivery. Highly recommend!
+              </p>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="testimonial-footer">
+                    <div><img src="model3.png" alt=""></div>
+                    <div class="name">Sana M., Beauty Brand</div>
+                </div>
+              <p class="testimonial-text">
+                ⭐️⭐️⭐️⭐️⭐️ <br>
+Super professional and creative team! They understood our needs, offered great ideas, and delivered a flawless website. It’s fast, mobile-friendly, and looks amazing. The whole process was smooth and stress-free.
+              </p>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <div class="testimonial-footer">
+                    <div><img src="model4.png" alt=""></div>
+                    <div class="name"> Neha A., Event Planner</div>
+                </div>
+              <p class="testimonial-text">
+                ⭐️⭐️⭐️⭐️⭐️ <br>
+                I had zero tech knowledge, but they guided me patiently through every step. The final website looks stunning and works perfectly. Great experience from start to finish. Thank you guys!
+              </p>
+            </div>
+    
+            <!-- Slide 4 -->
+            <div class="swiper-slide">
+                <div class="testimonial-footer">
+                    <div><img src="model2.png" alt=""></div>
+                    <div class="name">Karan V., E-commerce</div>
+                </div>
+              <p class="testimonial-text">
+                ⭐️⭐️⭐️⭐️⭐️ <br>
+                We needed a fast, clean landing page for our launch. They delivered on time with excellent quality. Everything looks professional, modern, and fully optimized. Can’t wait to hire them again!
+              </p>
+            </div>
+    
+            <!-- Slide 5 -->
+            <div class="swiper-slide">
+                <div class="testimonial-footer">
+                    <div><img src="model5.png" alt=""></div>
+                    <div class="name">Ayesha P., Marketing Lead</div>
+                </div>
+              <p class="testimonial-text">
+                ⭐️⭐️⭐️⭐️⭐️ <br>
+                This team goes beyond coding—they helped with branding, SEO, and layout strategy. They genuinely care about your success. We loved the final site and enjoyed working with them!
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+  <!---FAQ CONTANER--->
+
+	<div class="faq-container" id="faq">
+        <div class="badge-container faq-badge">
+    <div class="badge">
+    <div class="year">🚀</div>
+    <div class="text">FAQ</div>
+  </div>
+</div>
+		<h1 class="SLIDE-H1 H1">Frequently Asked Questions</h1>
+		<div class="faq-item">
+		  <div class="question">
+			<h3>How does Dropstook work?</h3>
+			<span class="toggle-btn">+</span>
+		  </div>
+		  <div class="answer">
+			<p>We start by understanding your brand, goals, and vision. Then we create the right strategy — from content and design to websites and marketing — and deliver high-quality results that help your brand grow online.</p>
+		  </div>
+		</div>
+		<div class="faq-item">
+		  <div class="question">
+			<h3>Do you provide complete social media management?</h3>
+			<span class="toggle-btn">+</span>
+		  </div>
+		  <div class="answer">
+			<p>Yes, we handle everything from content creation and video editing to posting, influencer collaborations, and strategy — helping your brand stay active and grow consistently on social media.
+
+</p>
+		  </div>
+		</div>
+		<div class="faq-item">
+		  <div class="question">
+			<h3>Do you provide ongoing support after the project?</h3>
+			<span class="toggle-btn">+</span>
+		  </div>
+		  <div class="answer">
+			<p>Absolutely. We provide ongoing support, updates, and strategy guidance to ensure your brand continues to grow and perform well online.</p>
+		  </div>
+		</div>
+	  </div>
+
+<!--FOOTER-->
+  <div class="hero">
+    <div class="hero-content">
+              <div class="badge-container faq-badge">
+    <div class="badge">
+    <div class="year">⚙️</div>
+    <div class="text">Dropstook</div>
+  </div>
+</div>
+      <h1 class="H1">We Don’t Just Build — We Grow Brands Online.</h1>
+      <a href="https://wa.me/916295140561?text=Hi%20I%20am%20interested%20in%20your%20services" class="cta-button">Book a 15-min call</a>
+      <div class="social-links">
+        <a href="https://www.instagram.com/decodebuddy" target="_blank" title="Instagram"><img style="height: 50px; width: 50px;" src="Images\instagram.png" alt=""></a>
+        <a href="https://wa.me/916295140561?text=Hi%20I%20am%20interested%20in%20your%20services" target="_blank" title="YouTube"><img style="height: 50px; width: 50px;" src="Images\whats app.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>    
+<script src="script.js"></script>
+</body>
+</html>
